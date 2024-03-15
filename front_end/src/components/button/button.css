@@ -1,0 +1,7 @@
+.btn {
+  width: 100%;
+    cursor: pointer;
+    background-color: #9181F4 !important;
+    outline-color: #9181F4 !important;
+    border: none !important;
+  }

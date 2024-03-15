@@ -1,0 +1,17 @@
+.form_input_div {
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+  
+  }
+  
+  .form_input:focus {
+    outline-color: #9181F4 !important; 
+  }
+
+  .form{
+    padding: 15px;
+  }

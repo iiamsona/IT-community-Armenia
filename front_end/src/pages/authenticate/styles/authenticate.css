@@ -1,0 +1,95 @@
+.authenticate{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+}
+
+.authenticate > :nth-child(1){
+    grid-row: 1/1;
+    grid-column: 1/1;
+    justify-self: center;
+    align-self: center;
+    background-color: #9181F4;
+    width: 100%;
+    height: 100%;
+}
+
+.authenticate > :nth-child(2){
+    grid-row: 1/1;
+    grid-column: 2/2;
+}
+
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 55%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.2fr 1fr 0.5fr 0.5fr;
+}
+
+.form_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.form_title *{
+    margin: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.ProdNote_form_img{
+    margin-bottom: 1rem;
+}
+
+.social_media_div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-self: center;
+    justify-self: center;
+    gap: 5%;
+}
+
+.forgot_password, .create_an_account, .or{
+    justify-self: center;
+    margin-bottom: 0;
+    align-self: center;
+}
+
+.authenticate_btn, .google_log_in_btn, .facebook_log_in_btn{
+    justify-self: center;
+    width: 100%;
+}
+
+.authenticate_btn{
+    width: 100%;
+    align-self: center;
+}
+
+.form_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_logo img{
+    height: 50%;
+}
+
+a {
+color: #9181F4 !important;
+}
